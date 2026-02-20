@@ -1,0 +1,45 @@
+[0.000000] (-) TimerEvent: {}
+[0.001285] (robot_proximity) JobQueued: {'identifier': 'robot_proximity', 'dependencies': OrderedDict()}
+[0.001375] (robot_proximity) JobStarted: {'identifier': 'robot_proximity'}
+[0.099804] (-) TimerEvent: {}
+[0.200233] (-) TimerEvent: {}
+[0.300746] (-) TimerEvent: {}
+[0.401099] (-) TimerEvent: {}
+[0.501569] (-) TimerEvent: {}
+[0.602358] (-) TimerEvent: {}
+[0.702853] (-) TimerEvent: {}
+[0.803129] (-) TimerEvent: {}
+[0.903552] (-) TimerEvent: {}
+[1.003979] (-) TimerEvent: {}
+[1.020486] (robot_proximity) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_proximity', 'build', '--build-base', '/home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build', 'install', '--record', '/home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jatin/ros2_ASSIGN_2_updated/src/robot_proximity', 'env': {'USER': 'jatin', 'SHLVL': '0', 'HOME': '/home/jatin', 'OLDPWD': '/home/jatin/ros2_ASSIGN_2_updated', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'jatin', 'NAME': 'DESKTOP-688DK3O', 'WSL_INTEROP': '/run/WSL/2895_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/c/Program Files/MongoDB/Server/7.0/bin:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/WireGuard/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/HP/Downloads/ros2-humble-20250721-windows-release-amd64/ros2-windows/Scripts:/mnt/c/Users/HP/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/HP/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/HP/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/HP/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/HP/AppData/Roaming/npm:/mnt/c/Users/HP/Downloads/ros2-humble-20250721-windows-release-amd64/ros2-windows/Scripts:/mnt/c/Users/HP/AppData/Local/Programs/Antigravity/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'PWD': '/home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:', 'PYTHONPATH': '/home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages:'}, 'shell': False}
+[1.104201] (-) TimerEvent: {}
+[1.204707] (-) TimerEvent: {}
+[1.248809] (robot_proximity) StdoutLine: {'line': b'running egg_info\n'}
+[1.249344] (robot_proximity) StdoutLine: {'line': b'writing ../../build/robot_proximity/robot_proximity.egg-info/PKG-INFO\n'}
+[1.249664] (robot_proximity) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_proximity/robot_proximity.egg-info/dependency_links.txt\n'}
+[1.250003] (robot_proximity) StdoutLine: {'line': b'writing entry points to ../../build/robot_proximity/robot_proximity.egg-info/entry_points.txt\n'}
+[1.250289] (robot_proximity) StdoutLine: {'line': b'writing requirements to ../../build/robot_proximity/robot_proximity.egg-info/requires.txt\n'}
+[1.250545] (robot_proximity) StdoutLine: {'line': b'writing top-level names to ../../build/robot_proximity/robot_proximity.egg-info/top_level.txt\n'}
+[1.286914] (robot_proximity) StdoutLine: {'line': b"reading manifest file '../../build/robot_proximity/robot_proximity.egg-info/SOURCES.txt'\n"}
+[1.288999] (robot_proximity) StdoutLine: {'line': b"writing manifest file '../../build/robot_proximity/robot_proximity.egg-info/SOURCES.txt'\n"}
+[1.289193] (robot_proximity) StdoutLine: {'line': b'running build\n'}
+[1.289260] (robot_proximity) StdoutLine: {'line': b'running build_py\n'}
+[1.289595] (robot_proximity) StdoutLine: {'line': b'copying robot_proximity/interactive_runner.py -> /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity\n'}
+[1.290576] (robot_proximity) StdoutLine: {'line': b'running install\n'}
+[1.291201] (robot_proximity) StdoutLine: {'line': b'running install_lib\n'}
+[1.293266] (robot_proximity) StdoutLine: {'line': b'copying /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity/interactive_runner.py -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity\n'}
+[1.294512] (robot_proximity) StdoutLine: {'line': b'byte-compiling /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/interactive_runner.py to interactive_runner.cpython-310.pyc\n'}
+[1.299245] (robot_proximity) StdoutLine: {'line': b'running install_data\n'}
+[1.299584] (robot_proximity) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.299854] (robot_proximity) StdoutLine: {'line': b"removing '/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.300676] (robot_proximity) StdoutLine: {'line': b'Copying ../../build/robot_proximity/robot_proximity.egg-info to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity-0.0.0-py3.10.egg-info\n'}
+[1.304867] (-) TimerEvent: {}
+[1.308781] (robot_proximity) StdoutLine: {'line': b'running install_scripts\n'}
+[1.337251] (robot_proximity) StdoutLine: {'line': b'Installing graph_visualizer script to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity\n'}
+[1.338366] (robot_proximity) StdoutLine: {'line': b'Installing interactive_runner script to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity\n'}
+[1.338874] (robot_proximity) StdoutLine: {'line': b'Installing proximity_monitor script to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity\n'}
+[1.339084] (robot_proximity) StdoutLine: {'line': b'Installing robot_node script to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity\n'}
+[1.339663] (robot_proximity) StdoutLine: {'line': b"writing list of installed files to '/home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/install.log'\n"}
+[1.367720] (robot_proximity) CommandEnded: {'returncode': 0}
+[1.389299] (robot_proximity) JobEnded: {'identifier': 'robot_proximity', 'rc': 0}
+[1.390517] (-) EventReactorShutdown: {}

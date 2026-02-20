@@ -1,0 +1,123 @@
+[INFO] [launch]: All log files can be found below /home/jatin/.ros/log/2026-02-13-02-07-10-195308-DESKTOP-688DK3O-1934
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_node-1]: process started with pid [1935]
+[INFO] [robot_node-2]: process started with pid [1937]
+[INFO] [robot_node-3]: process started with pid [1939]
+[INFO] [robot_node-4]: process started with pid [1941]
+[INFO] [proximity_monitor-5]: process started with pid [1943]
+[INFO] [graph_visualizer-6]: process started with pid [1945]
+[INFO] [rviz2-7]: process started with pid [1947]
+[proximity_monitor-5] Traceback (most recent call last):
+[proximity_monitor-5]   File "/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity/proximity_monitor", line 33, in <module>
+[proximity_monitor-5]     sys.exit(load_entry_point('robot-proximity==0.0.0', 'console_scripts', 'proximity_monitor')())
+[proximity_monitor-5]   File "/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/proximity_monitor.py", line 85, in main
+[proximity_monitor-5]     node = ProximityMonitor()
+[proximity_monitor-5]   File "/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/proximity_monitor.py", line 28, in __init__
+[proximity_monitor-5]     self.clients = {}
+[proximity_monitor-5] AttributeError: can't set attribute 'clients'
+[graph_visualizer-6] [INFO] [1770928631.508811579] [graph_visualizer]: Graph Visualizer started with node labels
+[robot_node-1] [INFO] [1770928631.603883612] [robot1]: Robot robot1 (red) started moving on path ['A', 'B', 'G', 'L', 'M', 'R', 'S']
+[robot_node-2] [INFO] [1770928631.611437226] [robot2]: Robot robot2 (blue) started moving on path ['P', 'K', 'F', 'A', 'B', 'G', 'H', 'I', 'D']
+[robot_node-3] [INFO] [1770928631.644388332] [robot3]: Robot robot3 (green) started moving on path ['T', 'S', 'R', 'Q', 'L', 'M', 'H', 'C', 'D']
+[ERROR] [proximity_monitor-5]: process has died [pid 1943, exit code 1, cmd '/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity/proximity_monitor --ros-args -r __node:=proximity_monitor --params-file /tmp/launch_params_98bx71u9'].
+[robot_node-4] [INFO] [1770928631.683781918] [robot4]: Robot robot4 (purple) started moving on path ['E', 'J', 'O', 'NodeN', 'M', 'G', 'B', 'A']
+[rviz2-7] [INFO] [1770928632.338910358] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-7] [INFO] [1770928632.339272343] [rviz2]: OpenGl version: 4.1 (GLSL 4.1)
+[rviz2-7] [INFO] [1770928632.425393092] [rviz2]: Stereo is NOT SUPPORTED
+[graph_visualizer-6] Traceback (most recent call last):
+[graph_visualizer-6]   File "/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity/graph_visualizer", line 33, in <module>
+[graph_visualizer-6]     sys.exit(load_entry_point('robot-proximity==0.0.0', 'console_scripts', 'graph_visualizer')())
+[graph_visualizer-6]   File "/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/graph_visualizer.py", line 98, in main
+[graph_visualizer-6]     rclpy.spin(node)
+[graph_visualizer-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[graph_visualizer-6]     executor.spin_once()
+[graph_visualizer-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 773, in spin_once
+[graph_visualizer-6]     self._spin_once_impl(timeout_sec)
+[graph_visualizer-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 770, in _spin_once_impl
+[graph_visualizer-6]     raise handler.exception()
+[graph_visualizer-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/task.py", line 254, in __call__
+[graph_visualizer-6]     self._handler.send(None)
+[graph_visualizer-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 463, in handler
+[graph_visualizer-6]     await call_coroutine(entity, arg)
+[graph_visualizer-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 371, in _execute_timer
+[graph_visualizer-6]     await await_or_execute(tmr.callback)
+[graph_visualizer-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 107, in await_or_execute
+[graph_visualizer-6]     return callback(*args)
+[graph_visualizer-6]   File "/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/graph_visualizer.py", line 46, in publish_graph
+[graph_visualizer-6]     label_marker.id = ord(node_id) # Unique ID based on char
+[graph_visualizer-6] TypeError: ord() expected a character, but string of length 5 found
+[ERROR] [graph_visualizer-6]: process has died [pid 1945, exit code 1, cmd '/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity/graph_visualizer --ros-args -r __node:=graph_visualizer'].
+[INFO] [rviz2-7]: process has finished cleanly [pid 1947]
+[robot_node-1] [INFO] [1770928655.556413941] [robot1]: Robot robot1 reached the end.
+[robot_node-4] [INFO] [1770928661.298646174] [robot4]: Robot robot4 reached the end.
+[robot_node-2] [INFO] [1770928663.565657000] [robot2]: Robot robot2 reached the end.
+[robot_node-3] [INFO] [1770[INFO] [rviz2-7]: process has finished cleanly [pid 1781]
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[robot_node-1] Traceback (most recent call last):
+[robot_node-1]   File "/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity/robot_node", line 33, in <module>
+[robot_node-1]     sys.exit(load_entry_point('robot-proximity==0.0.0', 'console_scripts', 'robot_node')())
+[robot_node-1]   File "/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/robot_node.py", line 172, in main
+[robot_node-1]     rclpy.spin(node)
+[robot_node-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[robot_node-1]     executor.spin_once()
+[robot_node-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 773, in spin_once
+[robot_node-1]     self._spin_once_impl(timeout_sec)
+[robot_node-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 762, in _spin_once_impl
+[robot_node-1]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[robot_node-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 745, in wait_for_ready_callbacks
+[robot_node-1]     return next(self._cb_iter)
+[robot_node-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 642, in _wait_for_ready_callbacks
+[robot_node-1]     wait_set.wait(timeout_nsec)
+[robot_node-1] KeyboardInterrupt
+[robot_node-3] Traceback (most recent call last):
+[robot_node-3]   File "/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity/robot_node", line 33, in <module>
+[robot_node-3]     sys.exit(load_entry_point('robot-proximity==0.0.0', 'console_scripts', 'robot_node')())
+[robot_node-3]   File "/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/robot_node.py", line 172, in main
+[robot_node-3]     rclpy.spin(node)
+[robot_node-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[robot_node-3]     executor.spin_once()
+[robot_node-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 773, in spin_once
+[robot_node-3]     self._spin_once_impl(timeout_sec)
+[robot_node-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 762, in _spin_once_impl
+[robot_node-3]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[robot_node-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 745, in wait_for_ready_callbacks
+[robot_node-3]     return next(self._cb_iter)
+[robot_node-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 642, in _wait_for_ready_callbacks
+[robot_node-3]     wait_set.wait(timeout_nsec)
+[robot_node-3] KeyboardInterrupt
+[robot_node-4] Traceback (most recent call last):
+[robot_node-4]   File "/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity/robot_node", line 33, in <module>
+[robot_node-4]     sys.exit(load_entry_point('robot-proximity==0.0.0', 'console_scripts', 'robot_node')())
+[robot_node-4]   File "/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/robot_node.py", line 172, in main
+[robot_node-4]     rclpy.spin(node)
+[robot_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[robot_node-4]     executor.spin_once()
+[robot_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 773, in spin_once
+[robot_node-4]     self._spin_once_impl(timeout_sec)
+[robot_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 762, in _spin_once_impl
+[robot_node-4]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[robot_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 745, in wait_for_ready_callbacks
+[robot_node-4]     return next(self._cb_iter)
+[robot_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 642, in _wait_for_ready_callbacks
+[robot_node-4]     wait_set.wait(timeout_nsec)
+[robot_node-4] KeyboardInterrupt
+[robot_node-2] Traceback (most recent call last):
+[robot_node-2]   File "/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity/robot_node", line 33, in <module>
+[robot_node-2]     sys.exit(load_entry_point('robot-proximity==0.0.0', 'console_scripts', 'robot_node')())
+[robot_node-2]   File "/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/robot_node.py", line 172, in main
+[robot_node-2]     rclpy.spin(node)
+[robot_node-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[robot_node-2]     executor.spin_once()
+[robot_node-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 773, in spin_once
+[robot_node-2]     self._spin_once_impl(timeout_sec)
+[robot_node-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 762, in _spin_once_impl
+[robot_node-2]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[robot_node-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 745, in wait_for_ready_callbacks
+[robot_node-2]     return next(self._cb_iter)
+[robot_node-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 642, in _wait_for_ready_callbacks
+[robot_node-2]     wait_set.wait(timeout_nsec)
+[robot_node-2] KeyboardInterrupt
+[ERROR] [robot_node-3]: process has died [pid 1773, exit code -2, cmd '/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity/robot_node --ros-args -r __node:=robot3 --params-file /tmp/launch_params_8mmax895'].
+[ERROR] [robot_node-2]: process has died [pid 1771, exit code -2, cmd '/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity/robot_node --ros-args -r __node:=robot2 --params-file /tmp/launch_params_b05fms08'].
+[ERROR] [robot_node-1]: process has died [pid 1769, exit code -2, cmd '/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity/robot_node --ros-args -r __node:=robot1 --params-file /tmp/launch_params_s0n8pcdv'].
+[ERROR] [robot_node-4]: process has died [pid 1775, exit code -2, cmd '/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity/robot_node --ros-args -r __node:=robot4 --params-file /tmp/launch_params_a7qzi1a0'].

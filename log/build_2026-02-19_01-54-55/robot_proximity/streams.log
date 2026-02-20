@@ -1,0 +1,24 @@
+[0.660s] Invoking command in '/home/jatin/ros2_ASSIGN_2_updated/src/robot_proximity': PYTHONPATH=/home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_proximity build --build-base /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build install --record /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/install.log --single-version-externally-managed install_data
+[0.832s] running egg_info
+[0.833s] writing ../../build/robot_proximity/robot_proximity.egg-info/PKG-INFO
+[0.833s] writing dependency_links to ../../build/robot_proximity/robot_proximity.egg-info/dependency_links.txt
+[0.833s] writing entry points to ../../build/robot_proximity/robot_proximity.egg-info/entry_points.txt
+[0.833s] writing requirements to ../../build/robot_proximity/robot_proximity.egg-info/requires.txt
+[0.833s] writing top-level names to ../../build/robot_proximity/robot_proximity.egg-info/top_level.txt
+[0.835s] reading manifest file '../../build/robot_proximity/robot_proximity.egg-info/SOURCES.txt'
+[0.836s] writing manifest file '../../build/robot_proximity/robot_proximity.egg-info/SOURCES.txt'
+[0.836s] running build
+[0.836s] running build_py
+[0.836s] running install
+[0.836s] running install_lib
+[0.838s] running install_data
+[0.838s] running install_egg_info
+[0.839s] removing '/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity-0.0.0-py3.10.egg-info' (and everything under it)
+[0.872s] Copying ../../build/robot_proximity/robot_proximity.egg-info to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity-0.0.0-py3.10.egg-info
+[0.874s] running install_scripts
+[0.892s] Installing graph_visualizer script to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity
+[0.893s] Installing interactive_runner script to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity
+[0.893s] Installing proximity_monitor script to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity
+[0.893s] Installing robot_node script to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity
+[0.893s] writing list of installed files to '/home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/install.log'
+[0.918s] Invoked command in '/home/jatin/ros2_ASSIGN_2_updated/src/robot_proximity' returned '0': PYTHONPATH=/home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_proximity build --build-base /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build install --record /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/install.log --single-version-externally-managed install_data

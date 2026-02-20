@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.001078] (robot_proximity) JobQueued: {'identifier': 'robot_proximity', 'dependencies': OrderedDict()}
+[0.001128] (robot_proximity) JobStarted: {'identifier': 'robot_proximity'}
+[0.099882] (-) TimerEvent: {}
+[0.200288] (-) TimerEvent: {}
+[0.300682] (-) TimerEvent: {}
+[0.401296] (-) TimerEvent: {}
+[0.501794] (-) TimerEvent: {}
+[0.602278] (-) TimerEvent: {}
+[0.702796] (-) TimerEvent: {}
+[0.729970] (robot_proximity) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_proximity', 'build', '--build-base', '/home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build', 'install', '--record', '/home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jatin/ros2_ASSIGN_2_updated/src/robot_proximity', 'env': {'USER': 'jatin', 'SHLVL': '0', 'HOME': '/home/jatin', 'OLDPWD': '/home/jatin/ros2_ASSIGN_2_updated', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'jatin', 'NAME': 'DESKTOP-688DK3O', 'WSL_INTEROP': '/run/WSL/1784_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Java/jdk-22/bin:/mnt/c/Program Files/MongoDB/Server/7.0/bin:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/WireGuard/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/HP/Downloads/ros2-humble-20250721-windows-release-amd64/ros2-windows/Scripts:/mnt/c/Users/HP/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/HP/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/HP/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/HP/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/HP/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/HP/AppData/Roaming/npm:/mnt/c/Users/HP/Downloads/ros2-humble-20250721-windows-release-amd64/ros2-windows/Scripts:/mnt/c/Users/HP/AppData/Local/Programs/Antigravity/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'PWD': '/home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:', 'PYTHONPATH': '/home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages:'}, 'shell': False}
+[0.802917] (-) TimerEvent: {}
+[0.903316] (-) TimerEvent: {}
+[0.947005] (robot_proximity) StdoutLine: {'line': b'running egg_info\n'}
+[0.947770] (robot_proximity) StdoutLine: {'line': b'creating ../../build/robot_proximity/robot_proximity.egg-info\n'}
+[0.948517] (robot_proximity) StdoutLine: {'line': b'writing ../../build/robot_proximity/robot_proximity.egg-info/PKG-INFO\n'}
+[0.949264] (robot_proximity) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_proximity/robot_proximity.egg-info/dependency_links.txt\n'}
+[0.949467] (robot_proximity) StdoutLine: {'line': b'writing entry points to ../../build/robot_proximity/robot_proximity.egg-info/entry_points.txt\n'}
+[0.949626] (robot_proximity) StdoutLine: {'line': b'writing requirements to ../../build/robot_proximity/robot_proximity.egg-info/requires.txt\n'}
+[0.949915] (robot_proximity) StdoutLine: {'line': b'writing top-level names to ../../build/robot_proximity/robot_proximity.egg-info/top_level.txt\n'}
+[0.949996] (robot_proximity) StdoutLine: {'line': b"writing manifest file '../../build/robot_proximity/robot_proximity.egg-info/SOURCES.txt'\n"}
+[0.951801] (robot_proximity) StdoutLine: {'line': b"reading manifest file '../../build/robot_proximity/robot_proximity.egg-info/SOURCES.txt'\n"}
+[0.952605] (robot_proximity) StdoutLine: {'line': b"writing manifest file '../../build/robot_proximity/robot_proximity.egg-info/SOURCES.txt'\n"}
+[0.952705] (robot_proximity) StdoutLine: {'line': b'running build\n'}
+[0.952807] (robot_proximity) StdoutLine: {'line': b'running build_py\n'}
+[0.953027] (robot_proximity) StdoutLine: {'line': b'creating /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build\n'}
+[0.953291] (robot_proximity) StdoutLine: {'line': b'creating /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib\n'}
+[0.953380] (robot_proximity) StdoutLine: {'line': b'creating /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity\n'}
+[0.953598] (robot_proximity) StdoutLine: {'line': b'copying robot_proximity/robot_node.py -> /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity\n'}
+[0.954113] (robot_proximity) StdoutLine: {'line': b'copying robot_proximity/graph_visualizer.py -> /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity\n'}
+[0.954350] (robot_proximity) StdoutLine: {'line': b'copying robot_proximity/__init__.py -> /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity\n'}
+[0.954431] (robot_proximity) StdoutLine: {'line': b'copying robot_proximity/proximity_monitor.py -> /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity\n'}
+[0.954480] (robot_proximity) StdoutLine: {'line': b'copying robot_proximity/graph_manager.py -> /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity\n'}
+[0.954673] (robot_proximity) StdoutLine: {'line': b'running install\n'}
+[0.955036] (robot_proximity) StdoutLine: {'line': b'running install_lib\n'}
+[0.955829] (robot_proximity) StdoutLine: {'line': b'creating /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity\n'}
+[0.956278] (robot_proximity) StdoutLine: {'line': b'copying /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity/robot_node.py -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity\n'}
+[0.956567] (robot_proximity) StdoutLine: {'line': b'copying /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity/graph_visualizer.py -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity\n'}
+[0.956684] (robot_proximity) StdoutLine: {'line': b'copying /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity/__init__.py -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity\n'}
+[0.988293] (robot_proximity) StdoutLine: {'line': b'copying /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity/proximity_monitor.py -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity\n'}
+[0.988671] (robot_proximity) StdoutLine: {'line': b'copying /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity/graph_manager.py -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity\n'}
+[0.988971] (robot_proximity) StdoutLine: {'line': b'byte-compiling /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/robot_node.py to robot_node.cpython-310.pyc\n'}
+[0.990940] (robot_proximity) StdoutLine: {'line': b'byte-compiling /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/graph_visualizer.py to graph_visualizer.cpython-310.pyc\n'}
+[0.991521] (robot_proximity) StdoutLine: {'line': b'byte-compiling /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/__init__.py to __init__.cpython-310.pyc\n'}
+[0.991788] (robot_proximity) StdoutLine: {'line': b'byte-compiling /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/proximity_monitor.py to proximity_monitor.cpython-310.pyc\n'}
+[0.992772] (robot_proximity) StdoutLine: {'line': b'byte-compiling /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/graph_manager.py to graph_manager.cpython-310.pyc\n'}
+[0.993345] (robot_proximity) StdoutLine: {'line': b'running install_data\n'}
+[0.993435] (robot_proximity) StdoutLine: {'line': b'creating /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/ament_index\n'}
+[0.993697] (robot_proximity) StdoutLine: {'line': b'creating /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/ament_index/resource_index\n'}
+[0.993934] (robot_proximity) StdoutLine: {'line': b'creating /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/ament_index/resource_index/packages\n'}
+[0.994176] (robot_proximity) StdoutLine: {'line': b'copying resource/robot_proximity -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/ament_index/resource_index/packages\n'}
+[0.994321] (robot_proximity) StdoutLine: {'line': b'copying package.xml -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/robot_proximity\n'}
+[0.994530] (robot_proximity) StdoutLine: {'line': b'creating /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/robot_proximity/launch\n'}
+[0.994618] (robot_proximity) StdoutLine: {'line': b'copying launch/simulation.launch.py -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/robot_proximity/launch\n'}
+[0.994781] (robot_proximity) StdoutLine: {'line': b'creating /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/robot_proximity/config\n'}
+[0.995002] (robot_proximity) StdoutLine: {'line': b'copying config/simulation.rviz -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/robot_proximity/config\n'}
+[0.995647] (robot_proximity) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.997441] (robot_proximity) StdoutLine: {'line': b'Copying ../../build/robot_proximity/robot_proximity.egg-info to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity-0.0.0-py3.10.egg-info\n'}
+[0.998570] (robot_proximity) StdoutLine: {'line': b'running install_scripts\n'}
+[1.003505] (-) TimerEvent: {}
+[1.019592] (robot_proximity) StdoutLine: {'line': b'Installing graph_visualizer script to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity\n'}
+[1.020809] (robot_proximity) StdoutLine: {'line': b'Installing proximity_monitor script to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity\n'}
+[1.021137] (robot_proximity) StdoutLine: {'line': b'Installing robot_node script to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity\n'}
+[1.021581] (robot_proximity) StdoutLine: {'line': b"writing list of installed files to '/home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/install.log'\n"}
+[1.050447] (robot_proximity) CommandEnded: {'returncode': 0}
+[1.063885] (robot_proximity) JobEnded: {'identifier': 'robot_proximity', 'rc': 0}
+[1.064463] (-) EventReactorShutdown: {}

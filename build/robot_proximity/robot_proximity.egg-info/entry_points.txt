@@ -1,0 +1,6 @@
+[console_scripts]
+graph_visualizer = robot_proximity.graph_visualizer:main
+interactive_runner = robot_proximity.interactive_runner:main
+proximity_monitor = robot_proximity.proximity_monitor:main
+robot_node = robot_proximity.robot_node:main
+

@@ -1,0 +1,44 @@
+running egg_info
+writing ../../build/robot_proximity/robot_proximity.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_proximity/robot_proximity.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_proximity/robot_proximity.egg-info/entry_points.txt
+writing requirements to ../../build/robot_proximity/robot_proximity.egg-info/requires.txt
+writing top-level names to ../../build/robot_proximity/robot_proximity.egg-info/top_level.txt
+reading manifest file '../../build/robot_proximity/robot_proximity.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_proximity/robot_proximity.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_proximity/graph_visualizer.py -> /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/build/robot_proximity/build/lib/robot_proximity
+copying robot_proximity/robot_node.py -> /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/build/robot_proximity/build/lib/robot_proximity
+copying robot_proximity/__init__.py -> /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/build/robot_proximity/build/lib/robot_proximity
+copying robot_proximity/graph_manager.py -> /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/build/robot_proximity/build/lib/robot_proximity
+copying robot_proximity/interactive_runner.py -> /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/build/robot_proximity/build/lib/robot_proximity
+copying robot_proximity/proximity_monitor.py -> /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/build/robot_proximity/build/lib/robot_proximity
+running install
+running install_lib
+copying /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/build/robot_proximity/build/lib/robot_proximity/graph_visualizer.py -> /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/lib/python3.10/site-packages/robot_proximity
+copying /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/build/robot_proximity/build/lib/robot_proximity/robot_node.py -> /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/lib/python3.10/site-packages/robot_proximity
+copying /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/build/robot_proximity/build/lib/robot_proximity/__init__.py -> /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/lib/python3.10/site-packages/robot_proximity
+copying /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/build/robot_proximity/build/lib/robot_proximity/graph_manager.py -> /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/lib/python3.10/site-packages/robot_proximity
+copying /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/build/robot_proximity/build/lib/robot_proximity/interactive_runner.py -> /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/lib/python3.10/site-packages/robot_proximity
+copying /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/build/robot_proximity/build/lib/robot_proximity/proximity_monitor.py -> /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/lib/python3.10/site-packages/robot_proximity
+byte-compiling /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/graph_visualizer.py to graph_visualizer.cpython-310.pyc
+byte-compiling /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/robot_node.py to robot_node.cpython-310.pyc
+byte-compiling /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/graph_manager.py to graph_manager.cpython-310.pyc
+byte-compiling /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/interactive_runner.py to interactive_runner.cpython-310.pyc
+byte-compiling /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/proximity_monitor.py to proximity_monitor.cpython-310.pyc
+running install_data
+copying resource/robot_proximity -> /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/share/ament_index/resource_index/packages
+copying package.xml -> /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/share/robot_proximity
+copying launch/simulation.launch.py -> /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/share/robot_proximity/launch
+copying config/simulation.rviz -> /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/share/robot_proximity/config
+running install_egg_info
+removing '/home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/lib/python3.10/site-packages/robot_proximity-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/robot_proximity/robot_proximity.egg-info to /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/lib/python3.10/site-packages/robot_proximity-0.0.0-py3.10.egg-info
+running install_scripts
+Installing graph_visualizer script to /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/lib/robot_proximity
+Installing interactive_runner script to /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/lib/robot_proximity
+Installing proximity_monitor script to /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/lib/robot_proximity
+Installing robot_node script to /home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/install/robot_proximity/lib/robot_proximity
+writing list of installed files to '/home/chandu/ros2_ws/src/ros2_ASSIGN_2_updated LATEST 10 ROBO/ros2_ASSIGN_2_updated LATEST 10 ROBO/build/robot_proximity/install.log'

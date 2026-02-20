@@ -1,0 +1,50 @@
+running egg_info
+creating ../../build/robot_proximity/robot_proximity.egg-info
+writing ../../build/robot_proximity/robot_proximity.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_proximity/robot_proximity.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_proximity/robot_proximity.egg-info/entry_points.txt
+writing requirements to ../../build/robot_proximity/robot_proximity.egg-info/requires.txt
+writing top-level names to ../../build/robot_proximity/robot_proximity.egg-info/top_level.txt
+writing manifest file '../../build/robot_proximity/robot_proximity.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_proximity/robot_proximity.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_proximity/robot_proximity.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build
+creating /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib
+creating /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity
+copying robot_proximity/robot_node.py -> /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity
+copying robot_proximity/graph_visualizer.py -> /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity
+copying robot_proximity/__init__.py -> /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity
+copying robot_proximity/proximity_monitor.py -> /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity
+copying robot_proximity/graph_manager.py -> /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity
+running install
+running install_lib
+creating /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity
+copying /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity/robot_node.py -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity
+copying /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity/graph_visualizer.py -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity
+copying /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity/__init__.py -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity
+copying /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity/proximity_monitor.py -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity
+copying /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity/graph_manager.py -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity
+byte-compiling /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/robot_node.py to robot_node.cpython-310.pyc
+byte-compiling /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/graph_visualizer.py to graph_visualizer.cpython-310.pyc
+byte-compiling /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/proximity_monitor.py to proximity_monitor.cpython-310.pyc
+byte-compiling /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/graph_manager.py to graph_manager.cpython-310.pyc
+running install_data
+creating /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/ament_index
+creating /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/ament_index/resource_index
+creating /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/ament_index/resource_index/packages
+copying resource/robot_proximity -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/ament_index/resource_index/packages
+copying package.xml -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/robot_proximity
+creating /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/robot_proximity/launch
+copying launch/simulation.launch.py -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/robot_proximity/launch
+creating /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/robot_proximity/config
+copying config/simulation.rviz -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/robot_proximity/config
+running install_egg_info
+Copying ../../build/robot_proximity/robot_proximity.egg-info to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity-0.0.0-py3.10.egg-info
+running install_scripts
+Installing graph_visualizer script to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity
+Installing proximity_monitor script to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity
+Installing robot_node script to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity
+writing list of installed files to '/home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/install.log'

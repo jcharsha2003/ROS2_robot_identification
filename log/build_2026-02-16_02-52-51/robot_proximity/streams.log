@@ -1,0 +1,52 @@
+[0.614s] Invoking command in '/home/jatin/ros2_ASSIGN_2_updated/src/robot_proximity': PYTHONPATH=/home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_proximity build --build-base /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build install --record /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/install.log --single-version-externally-managed install_data
+[0.834s] running egg_info
+[0.834s] creating ../../build/robot_proximity/robot_proximity.egg-info
+[0.834s] writing ../../build/robot_proximity/robot_proximity.egg-info/PKG-INFO
+[0.835s] writing dependency_links to ../../build/robot_proximity/robot_proximity.egg-info/dependency_links.txt
+[0.835s] writing entry points to ../../build/robot_proximity/robot_proximity.egg-info/entry_points.txt
+[0.835s] writing requirements to ../../build/robot_proximity/robot_proximity.egg-info/requires.txt
+[0.836s] writing top-level names to ../../build/robot_proximity/robot_proximity.egg-info/top_level.txt
+[0.836s] writing manifest file '../../build/robot_proximity/robot_proximity.egg-info/SOURCES.txt'
+[0.837s] reading manifest file '../../build/robot_proximity/robot_proximity.egg-info/SOURCES.txt'
+[0.838s] writing manifest file '../../build/robot_proximity/robot_proximity.egg-info/SOURCES.txt'
+[0.839s] running build
+[0.839s] running build_py
+[0.839s] creating /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build
+[0.839s] creating /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib
+[0.840s] creating /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity
+[0.840s] copying robot_proximity/robot_node.py -> /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity
+[0.841s] copying robot_proximity/graph_visualizer.py -> /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity
+[0.841s] copying robot_proximity/__init__.py -> /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity
+[0.841s] copying robot_proximity/proximity_monitor.py -> /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity
+[0.841s] copying robot_proximity/graph_manager.py -> /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity
+[0.841s] running install
+[0.842s] running install_lib
+[0.843s] creating /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity
+[0.843s] copying /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity/robot_node.py -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity
+[0.844s] copying /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity/graph_visualizer.py -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity
+[0.844s] copying /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity/__init__.py -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity
+[0.844s] copying /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity/proximity_monitor.py -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity
+[0.844s] copying /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build/lib/robot_proximity/graph_manager.py -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity
+[0.845s] byte-compiling /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/robot_node.py to robot_node.cpython-310.pyc
+[0.847s] byte-compiling /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/graph_visualizer.py to graph_visualizer.cpython-310.pyc
+[0.848s] byte-compiling /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/__init__.py to __init__.cpython-310.pyc
+[0.849s] byte-compiling /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/proximity_monitor.py to proximity_monitor.cpython-310.pyc
+[0.850s] byte-compiling /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity/graph_manager.py to graph_manager.cpython-310.pyc
+[0.851s] running install_data
+[0.851s] creating /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/ament_index
+[0.851s] creating /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/ament_index/resource_index
+[0.852s] creating /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/ament_index/resource_index/packages
+[0.852s] copying resource/robot_proximity -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/ament_index/resource_index/packages
+[0.852s] copying package.xml -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/robot_proximity
+[0.852s] creating /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/robot_proximity/launch
+[0.853s] copying launch/simulation.launch.py -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/robot_proximity/launch
+[0.853s] creating /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/robot_proximity/config
+[0.854s] copying config/simulation.rviz -> /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/share/robot_proximity/config
+[0.854s] running install_egg_info
+[0.856s] Copying ../../build/robot_proximity/robot_proximity.egg-info to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages/robot_proximity-0.0.0-py3.10.egg-info
+[0.858s] running install_scripts
+[0.877s] Installing graph_visualizer script to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity
+[0.878s] Installing proximity_monitor script to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity
+[0.878s] Installing robot_node script to /home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/robot_proximity
+[0.878s] writing list of installed files to '/home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/install.log'
+[0.911s] Invoked command in '/home/jatin/ros2_ASSIGN_2_updated/src/robot_proximity' returned '0': PYTHONPATH=/home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jatin/ros2_ASSIGN_2_updated/install/robot_proximity/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_proximity build --build-base /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/build install --record /home/jatin/ros2_ASSIGN_2_updated/build/robot_proximity/install.log --single-version-externally-managed install_data
